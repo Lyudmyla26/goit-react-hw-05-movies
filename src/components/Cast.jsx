@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import { QuzeActor } from './CardActor';
 
 const Cast = () => {
-  const posterUrl = 'https://image.tmdb.org/t/p/original/';
   const [actor, setActor] = useState([]);
   const { movieId } = useParams();
   useEffect(() => {

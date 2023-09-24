@@ -1,4 +1,3 @@
-import { GoToBack } from 'components/GoToBack';
 import { MoviesList } from 'components/MoviesList';
 import { searchMovies } from 'fetch/API';
 import { useEffect, useState } from 'react';
