@@ -22,8 +22,10 @@ const Movie = () => {
   };
 
   useEffect(() => {
+    const filter = search.get('filter') ?? '';
+    if (!filter) return;
+
     async function getQuizzes() {
-      const filter = search.get('filter') ?? '';
       try {
         const quizItems = await searchMovies(filter);
         console.log(quizItems);

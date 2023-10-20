@@ -38,6 +38,7 @@ const MovieDetails = () => {
   return (
     <>
       <GoToBack to={backLinkHref.current} />
+      <br />
       <DetailsMovie details={details} />
       <ul>
         <li>
